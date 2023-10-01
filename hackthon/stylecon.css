@@ -1,0 +1,14 @@
+.container{
+    display:block;
+    align-items: center;
+}   
+.pad{
+    padding:20px;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: url("background.png")repeat-y center fixed;
+    width:100%;
+}

@@ -1,0 +1,22 @@
+#email,#username{
+    width:100%;
+    padding:10px;
+}
+body,input,button{
+    padding:5px;
+    margin-top:10px;
+    text-decoration-style:bold ;
+}
+#addbook{
+    padding:10px;
+    background-color: white; 
+}
+th{
+    padding:5px;
+    color:white;
+    
+}
+table{
+    background-color: rgb(58, 52, 52);
+    width:100%;
+}

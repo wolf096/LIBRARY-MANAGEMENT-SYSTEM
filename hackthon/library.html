@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>forms</title>
+        
+        <style>
+            body{
+    background-color:white;
+    background-size: cover;    
+}
+form{
+    font-family: 'Lucida Sans';
+    position: absolute;
+    top:10vh;
+    left:30vw;
+    text-align: center;
+    box-shadow: 2px;
+    display: inline-block;
+    padding: 30px;
+    background-color:transparent;
+}
+h3{
+    color:black;
+}
+form input{
+    border-radius: 5%;
+    
+    width:200px;
+    padding: 2px;
+    margin-left: 40px;
+    box-shadow: 2px;
+}
+button{
+    border-radius: 5%;
+    background:blue;
+    padding:10px;
+    color:white;
+}
+        </style>
+    </head>
+    <body>
+        <form >            
+                <h1>BOOK DETAILS</h1>
+                
+                    
+                        <p>
+                            Title:<input type="text" size="20" maxlength="30" placeholder="Title" required><br><br></p>
+                        <p>ISBN-10:<input type="text" size="20"  max="10" maxlength="10" placeholder="ISBN(International Standard Book Number)"  pattern="^(?:\d{3}-\d{1,5}-\d{1,7}-\d{1})|(?:\d{3}-\d{1,5}-\d{1,7}-\d{1}-\d{1})$" required>
+                        </p><br><br>
+                        <p>Author:<input type="text" size="20" maxlength="20" placeholder="Author"  required></p><br><br>               
+                        <p>Genre:<input type="text"  size="20" maxlength="20" placeholder="Genre" required></p><br><br>
+                        <p >Publication date:
+                        <input type="date"  required style="color: aquamarine; margin-right:70px;"><br><br></p>
+                        <p><input type="number" placeholder="Total Copies" min="0" max="30">
+                        <input type="number" placeholder="Available Copies" min="0" max="30"></p><br><br>
+                        <p>Rack Details:<input type="text" placeholder="(R+number or C+number)" pattern="(R\d+)|(C\d+)""> </p>
+                        <button type="submit">Submit</button>            
+        </form>
+    </body>
+</html>

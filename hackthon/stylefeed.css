@@ -1,0 +1,30 @@
+body{
+    background:url('feed.png');
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    
+}
+div{
+    text-align:left;
+    margin-top: 10px;
+}
+h1{
+    text-align:center;
+}
+input{
+    display:block;
+    width:400px;
+}
+input[type="submit"]{
+    width:200px;
+    padding: 5px;
+}
+textarea{
+    display:block;
+    }
+    span{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
